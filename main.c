@@ -5,8 +5,8 @@
 #define FALSE 0
 #define MAX 100
 #define TRIP_ID 9
-#define TRIP_FILE "/home/jmmonteiro/Desktop/Uni/Projeto/viagens"    /*Inserir localização do ficheiro "viagens"*/
-#define CLIENT_FILE "/home/jmmonteiro/Desktop/Uni/Projeto/clientes" /*Inserir localização do ficheiro "clientes"*/
+#define TRIP_FILE "viagens"    /*Inserir localização do ficheiro "viagens"*/
+#define CLIENT_FILE "clientes" /*Inserir localização do ficheiro "clientes"*/
 
 typedef struct client_node *Client_list;        /*Client database*/
 typedef struct trip_node *Trip_list;            /*Trip database*/
